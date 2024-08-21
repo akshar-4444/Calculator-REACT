@@ -3,12 +3,6 @@ import './App.css';
 
 const App = () => {
   const [input, setInput] = useState('');
-  const buttons = [
-    ['7', '8', '9', '/'],
-    ['4', '5', '6', '*'],
-    ['1', '2', '3', '-'],
-    ['0', '.', 'C', '+']
-  ];
   const handleClick = (value) => {
     if (value === '=') {
       try {
